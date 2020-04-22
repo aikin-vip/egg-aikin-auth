@@ -1,6 +1,6 @@
 {
   "name": "egg-aikin-auth",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "password refresh_token oauth2 egg-plugin",
   "eggPlugin": {
     "name": "auth"
@@ -16,12 +16,17 @@
     "validateRule.ts",
     "validateRule.js",
     "index.d.ts",
-    "app",
-    "oauth-server",
-    "config",
-    "entity",
-    "model",
-    "typings"
+    "app/**/**/*.js",
+    "app/**/.js",
+    "app/*.js",
+    "oauth-server/**/**/*.js",
+    "oauth-server/**/*.js",
+    "oauth-server/*.js",
+    "config/*.js",
+    "entity/*.js",
+    "model/*.js",
+    "typings/*.d.ts",
+    "typings/**/*.d.ts"
   ],
   "dependencies": {
     "basic-auth": "^2.0.1",
