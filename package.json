@@ -31,7 +31,9 @@
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
     "eslint-config-egg": "^7.1.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "egg-ts-helper": "^1.25.7",
+    "tslib": "^1.11.1"
   },
   "engines": {
     "node": ">=8.0.0"
