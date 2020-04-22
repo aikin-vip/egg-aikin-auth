@@ -1,6 +1,6 @@
 {
   "name": "egg-aikin-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "password refresh_token oauth2 egg-plugin",
   "eggPlugin": {
     "name": "auth"
