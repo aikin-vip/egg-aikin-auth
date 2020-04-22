@@ -13,6 +13,8 @@
   "files": [
     "app.ts",
     "app.js",
+    "validateRule.ts",
+    "validateRule.js",
     "index.d.ts",
     "app/**/*.js",
     "app/**/*.ts",
