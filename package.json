@@ -21,6 +21,9 @@
     "type-is": "^1.6.18",
     "typeorm": "^0.2.24"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "@types/node": "^13.13.2",
     "autod": "^3.0.1",
@@ -69,12 +72,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-aikin-auth.git"
+    "url": "git+https://github.com/aikin-vip/egg-aikin-auth.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/aikin-vip/egg-aikin-auth/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-aikin-auth#readme",
+  "homepage": "https://github.com/aikin-vip/egg-aikin-auth#readme",
   "author": "aikin",
   "license": "MIT"
 }
