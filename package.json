@@ -22,6 +22,7 @@
     "oauth-server/**/**/*.js",
     "oauth-server/**/*.js",
     "oauth-server/*.js",
+    "oauth-server/lib/interfaces/*.ts",
     "config/*.js",
     "entity/*.js",
     "model/*.js",

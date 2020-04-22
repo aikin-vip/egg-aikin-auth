@@ -20,7 +20,7 @@ export default class AppBootHook {
     try {
       this.app.oauth = new OAuth2Server({
         ...config,
-        model: config.model ? new config.model() : new User(),
+        model: config.model ? config.model : new User(),
       });
       this.app.logger.info('[egg-aikin-auth] start success');
     } catch (e) {

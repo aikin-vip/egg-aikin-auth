@@ -23,7 +23,7 @@ declare module 'egg' {
         auth: {
             alwaysIssueNewRefreshToken?: boolean,
             accessTokenLifetime?: number,
-            model?: typeof Model,
+            model?: Model,
             refreshTokenLifetime?: number;
         }
     }
