@@ -10,6 +10,22 @@
     "eggPlugin",
     "egg-plugin"
   ],
+  "files": [
+    "app.ts",
+    "app.js",
+    "index.d.ts",
+    "app/**/*.js",
+    "app/**/*.ts",
+    "config/**/*.js",
+    "config/**/*.ts",
+    "entity/**/*.js",
+    "entity/**/*.ts",
+    "model/**/*.js",
+    "model/**/*.ts",
+    "oauth-server/**/*.ts",
+    "oauth-server/**/*.ts",
+    "typings/**/*.d.ts"
+  ],
   "dependencies": {
     "basic-auth": "^2.0.1",
     "bcrypt": "^4.0.1",
@@ -51,22 +67,6 @@
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
-  "files": [
-    "app.ts",
-    "app.js",
-    "index.d.ts",
-    "app/**/*.js",
-    "app/**/*.ts",
-    "config/**/*.js",
-    "config/**/*.ts",
-    "entity/**/*.js",
-    "entity/**/*.ts",
-    "model/**/*.js",
-    "model/**/*.ts",
-    "oauth-server/**/*.ts",
-    "oauth-server/**/*.ts",
-    "typings/**/*.d.ts"
-  ],
   "ci": {
     "version": "8, 10"
   },
