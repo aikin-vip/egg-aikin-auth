@@ -16,7 +16,7 @@ export default class AppBootHook {
   async didLoad() {
     // this.app.coreLogger.info('[egg-aikin-auth] egg-aikin-auth begin start');
     // const start = Date.now();
-    const config = this.app.config.oauth || {};
+    const config = this.app.config.auth || {};
     try {
       this.app.oauth = new OAuth2Server({
         ...config,
