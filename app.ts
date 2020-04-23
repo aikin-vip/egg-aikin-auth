@@ -13,7 +13,7 @@ export default class AppBootHook {
     this.app.config.coreMiddlewares.push(...[ 'auth', 'authRouter' ]);
   }
 
-  async willReady() {
+  async didLoad() {
     // this.app.coreLogger.info('[egg-aikin-auth] egg-aikin-auth begin start');
     // const start = Date.now();
     const config = this.app.config.auth || {};
