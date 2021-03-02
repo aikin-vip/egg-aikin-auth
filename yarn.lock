@@ -2960,6 +2960,25 @@ egg-ts-helper@^1.25.2:
     typescript "^3.0.0"
     yn "^3.0.0"
 
+egg-ts-helper@^1.25.7:
+  version "1.25.8"
+  resolved "https://registry.yarnpkg.com/egg-ts-helper/-/egg-ts-helper-1.25.8.tgz#3bf13dcf26ada57a0b1f0c3118532ba4db807803"
+  integrity sha512-aRD1f4mP3ALqsqTcbET5vU1W5RCWNoGnP36QnIwW3qNb6qNRZo+czY0HjKpvOblzGKdcr+DIP0xEmp672lkJtQ==
+  dependencies:
+    cache-require-paths "^0.3.0"
+    chalk "^2.4.2"
+    chokidar "^2.0.1"
+    commander "^2.15.1"
+    debug "^3.1.0"
+    dot-prop "^4.2.0"
+    enquirer "^2.3.0"
+    globby "^8.0.1"
+    mkdirp "^0.5.1"
+    ts-node "^7.0.0"
+    tslib "^1.9.3"
+    typescript "^3.0.0"
+    yn "^3.0.0"
+
 egg-utils@^2.4.1:
   version "2.4.1"
   resolved "https://registry.npm.taobao.org/egg-utils/download/egg-utils-2.4.1.tgz#bc7a330315a100bc45838a54f744fdd5d47c332a"
@@ -7540,9 +7559,9 @@ uri-js@^4.2.2:
     punycode "^2.1.0"
 
 urijs@^1.19.0:
-  version "1.19.2"
-  resolved "https://registry.npm.taobao.org/urijs/download/urijs-1.19.2.tgz#f9be09f00c4c5134b7cb3cf475c1dd394526265a"
-  integrity sha1-+b4J8AxMUTS3yzz0dcHdOUUmJlo=
+  version "1.19.6"
+  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.6.tgz#51f8cb17ca16faefb20b9a31ac60f84aa2b7c870"
+  integrity sha512-eSXsXZ2jLvGWeLYlQA3Gh36BcjF+0amo92+wHPyN1mdR8Nxf75fuEuYTd9c0a+m/vhCjRK0ESlE9YNLW+E1VEw==
 
 urix@^0.1.0:
   version "0.1.0"
