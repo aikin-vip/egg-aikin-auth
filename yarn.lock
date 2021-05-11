@@ -2960,6 +2960,25 @@ egg-ts-helper@^1.25.2:
     typescript "^3.0.0"
     yn "^3.0.0"
 
+egg-ts-helper@^1.25.7:
+  version "1.25.9"
+  resolved "https://registry.yarnpkg.com/egg-ts-helper/-/egg-ts-helper-1.25.9.tgz#d23f49ed3ca4e9e54caa3ac73346c67e89c43144"
+  integrity sha512-meDbMuu159fIe2AvkdzrRZpEtRNYthevYEUr8eaQORvYdQTl9BH66AzHp8OgDMGDVG7jABVIwj/Nz7TszriqMg==
+  dependencies:
+    cache-require-paths "^0.3.0"
+    chalk "^2.4.2"
+    chokidar "^2.0.1"
+    commander "^2.15.1"
+    debug "^3.1.0"
+    dot-prop "^4.2.0"
+    enquirer "^2.3.0"
+    globby "^8.0.1"
+    mkdirp "^0.5.1"
+    ts-node "^7.0.0"
+    tslib "^2.0.0"
+    typescript "^4.0.0"
+    yn "^3.0.0"
+
 egg-utils@^2.4.1:
   version "2.4.1"
   resolved "https://registry.npm.taobao.org/egg-utils/download/egg-utils-2.4.1.tgz#bc7a330315a100bc45838a54f744fdd5d47c332a"
@@ -4161,9 +4180,9 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.8.8.tgz?cache=0&sync_timestamp=1583018405733&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhosted-git-info%2Fdownload%2Fhosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha1-dTm9S8Hg4KiVgVouAmJCCxKFhIg=
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-escaper@^2.0.0:
   version "2.0.2"
@@ -7401,6 +7420,11 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.11.1.tgz?cache=0&sync_timestamp=1582832152814&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha1-6xXRKIJ/vuKEFUnhcfRe0zisfjU=
 
+tslib@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
+  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
+
 tsscmp@1.0.6:
   version "1.0.6"
   resolved "https://registry.npm.taobao.org/tsscmp/download/tsscmp-1.0.6.tgz#85b99583ac3589ec4bfef825b5000aa911d605eb"
@@ -7468,6 +7492,11 @@ typescript@^3.0.0, typescript@^3.8.3:
   version "3.8.3"
   resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha1-QJ64VE6gM1cRIFhp7EWKsQnuEGE=
+
+typescript@^4.0.0:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
+  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
 
 uid-safe@2.1.5:
   version "2.1.5"
